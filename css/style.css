@@ -1,0 +1,179 @@
+html { overflow-y: scroll; }
+body {
+    font-family: Georgia, Serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3B3B3B;
+    background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+}
+
+#mrapper{
+margin:auto;
+width:800px;
+}
+
+#head{
+position:relative;
+width:800px;
+height:198px;
+margin-left: auto ;
+margin-right: auto ;
+background:url(../images/oblak.png);
+
+}
+
+#txt{
+position:relative;
+width:800px;
+height:56px;
+margin-left: auto ;
+margin-right: auto ;
+background:#FFF;
+opacity: 0.9;
+}
+
+#title{
+position:relative;
+width:800px;
+height:1065px;
+margin-left: auto ;
+margin-right: auto ;
+background:#fff;
+opacity: 0.9
+}
+
+.menu{
+position:relative;
+padding:30px;
+width:420px;
+height:73px;
+margin-left: auto ;
+margin-right: auto ;
+
+}
+
+#copy{
+position:relative;
+width:800px;
+height:41px;
+margin-left: auto ;
+margin-right: auto ;
+background:none;
+}
+
+
+
+.face{
+	position:relative; top:100px; left:200px;
+    width:500px;
+	height:80px;
+	background:none;
+}
+
+@font-face {
+    font-family: 'Mistralnormal';
+    src: url('../font/Mistral.eot');
+    src: url('../font/Mistral.eot?#iefix') format('embedded-opentype'),
+         url('../font/Mistral.woff') format('woff'),
+         url('../font/Mistral.ttf') format('truetype'),
+         url('../font/Mistral.svg#aristonnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+<-------Снимки---->
+.img{position:relative; width:180px; height:145; left:10px; padding:1px; top:7px;}
+.productimg{position:relative; left:80px; top:2px;}
+<-------Снимки край---->
+
+
+
+.share{position:relative; top:20px; left:15px;}
+.ct{font-family:Mistralnormal; color:black; font-size:30px; text-align:center; }
+.txt{font-family:Mistralnormal; color:black; font-size:40px;  text-align:center;}
+.M{font-family:Mistralnormal; color:green; font-size:35px;  text-align:center;}
+.pl{font-family:Mistralnormal; padding:40px; color:green; font-size:35px;  text-align:center;}
+.pictures{margin-left: auto ;margin-right: auto ;}
+.M1{ color:black; font-size:25px;  text-align:center; padding:80px;}
+.slide{position:relative;  padding:70px; height:400px; }
+
+
+<-----contacts-----
+.background{
+   border:2px solid black;
+   }
+.transbox
+   {
+   position:relative; top:65px; right:50px;
+   width:700px;
+   height:600px;
+   margin:0px 100px;
+   background:url(../images/form-bg.png)repeat;
+   border:1px solid black;
+     
+   }
+.transbox p
+   {
+	margin: 20px 15px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000;
+   }
+ 
+<-----end contacts-->
+
+<----spercial btn---
+
+height:200px;
+background:#EEE}
+.nivoSlider
+img{position:absolute;top:0px;left:0px;
+height:260px;zoom:1}
+.nivoSlider 
+a.nivo-imageLink{position:absolute;top:0;left:0;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;height:260px;zoom:1}
+.nivo-slice{display:block;position:absolute;z-index:5;height:100%}.ie6 
+.nivo-slice{display:none}
+.nivo-box{display:block;position:absolute;z-index:5}
+.nivo-caption{position:absolute;left:0;bottom:0;background:#000;color:#FFF;opacity:0.8;width:100%;z-index:8}
+.nivo-caption
+p{padding:5px;margin:0}
+.nivo-caption
+a{display:inline !important}
+.nivo-html-caption{display:none}
+.nivo-directionNav
+a{position:absolute;top:45%;z-index:9;cursor:pointer}
+.nivo-prevNav{left:0}
+.nivo-nextNav{right:0}
+.nivo-controlNav
+a{position:relative;z-index:9;cursor:pointer}
+.nivo-controlNav
+a.active{font-weight:bold}
+.nivoSlider{position:relative;background:#FFF url(../images/loading.gif) no-repeat 50% 50%;width:948px;height:510px}
+.nivoSlider
+img{position:absolute;top:0px;left:0px;display:none}
+.nivoSlider
+a{border:0;display:block}
+.nivo-controlNav{position:absolute;left:50px;bottom:7px;margin-left:-40px;z-index:99}
+.nivo-controlNav
+a{display:block;width:22px;height:22px;background:url(../images/bullets.png) no-repeat;text-indent:-9999px;border:0;margin-right:3px;float:left;position:relative; top:-65px; left:110px;}
+.nivo-controlNav
+a.active{background-position:0 -22px}
+.nivo-directionNav
+a{display:block;width:30px;height:30px;background:url(../images/arrow.png) no-repeat;text-indent:-9999px;border:0}
+a.nivo-nextNav{background-position:-30px 0;right:15px}
+a.nivo-prevNav{left:15px}.nivo-caption{font-family:Helvetica,Arial,sans-serif}
+.nivo-caption
+a{color:#FFF;border-bottom:1px dotted #FFF}
+.nivo-caption a:hover{color:#FFF}.ie6
+.nivoSlider{margin-bottom:7px}.ie6 .nivo-slice,
+.ie6 .nivo-caption,
+.ie6 .nivo-caption
+*{display:none}
+<----end btn-------
+
